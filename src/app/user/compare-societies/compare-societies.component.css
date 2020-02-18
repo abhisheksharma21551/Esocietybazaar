@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    background-image: url("../../../assets/gettyimages-507585033-5b515477c9e77c005b93011e.png");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    transform-origin: center;    
+}
+.background-header{
+    background-color: black;
+    height: 300px;
+    opacity: 0.3;
+}
+.compare-heading{
+    position: relative;
+    top: -240px;
+}
+.button-background{
+    background-color: rgba(45, 211, 145, 1);
+    border-radius: 10px;
+    border: 0px;
+    font-family: montserrat_bold, Arial;
+    font-weight: 700;
+    font-size: 13px;
+  }
+.what-is-esocietybazaar{    
+    color: rgba(45, 211, 147, 1);
+    font-size: 31px;
+    font-weight: 700;
+    font-family: montserrat_bold, Arial;
+    letter-spacing: 1.21px;
+}
+.what-is-esocietybazaar-body{
+    font-size: 14.00px;
+    font-weight: 400;
+    font-family: segoe-ui_regular, Arial;
+    color: rgba(168, 168, 168, 1);
+}

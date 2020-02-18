@@ -1,0 +1,101 @@
+.background{
+    background-image: url("../../../assets/green backgground.png");
+    height: 200px;
+    opacity: 0.2;
+}
+.containerpos{
+    position: relative;
+    top: -180px !important;
+}
+
+.marginclass{
+    position: relative;
+    top: -33px;
+}
+.inputChange{
+    background:transparent;
+    border: none;
+}
+.inputChange:focus{
+    outline-width: 0px;
+}
+
+.inputChange::placeholder{
+    color: rgba(31, 180, 122, 1);
+    padding-left: 5px;
+    font-weight: 700;
+}
+.btnhover1:hover{
+    background-color: rgba(216, 255, 235, 1);
+}
+.btnhover2:hover{
+    background-color: rgba(45, 211, 145, 1);
+    color: white !important;
+}
+
+.btn2
+{
+    background-color: rgba(45, 211, 145, 1);
+    color: white !important;
+    /* font-weight: 600; */
+}
+.btnradius{
+    border-radius: 50px;
+    
+    padding-right: 10px !important;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.21);
+}
+.cardheading{
+    color: rgba(45, 211, 147, 1);
+    font-size: 20.00px;
+    font-weight: 700;
+    font-family: montserrat_bold, Arial;
+
+}
+.cardviewbutton{
+    border: 0px;
+    font-size: 10.00px;
+    font-weight: 700;
+    font-family: montserrat_bold, Arial;
+    letter-spacing: 1.81px;
+
+}
+.cardcontent{
+    color: rgba(91, 91, 91, 1);
+    font-style: normal;
+    font-size: 10.00px;
+    font-family: Montserrat, Arial;
+}
+.card-footer{
+    border-top: 0px transparent;
+}
+.card-footer img{
+    margin: 2px;
+}
+.cardtopbar{
+    font-size: 11.00px;
+    font-weight: 700;
+    font-family: montserrat_semibold, Arial;
+    border-bottom: 0px;
+    /* margin-left: 0px !important; */
+    width: 100% !important;
+    height: 30px;
+}
+.cardtopbar strong{
+    position: relative;
+    left: -30px;
+    top: -8px;
+}
+.dropdown-menu li{
+    text-align: center;
+}
+.dropdown-menu li a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:992px){
+    .marginclass{
+        position: relative;
+        top: 0px;
+    }
+}

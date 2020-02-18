@@ -1,0 +1,43 @@
+.headerTitle{
+    background-image: url("../../../assets/rectangle-127.png");
+
+    font-size: 14px;
+}
+
+.headerTitle span{
+    color: rgb(88, 87, 87);
+}
+
+.greentext{
+    color: rgba(45, 211, 147, 1) !important;
+    font-weight: 500;
+}
+.navbar-nav li:active{
+    color: rgba(45, 211, 147, 1) !important;
+}
+
+
+.openaccountButton{
+    color: white !important;
+    width: 160.00px;
+    height: 31.00px;
+    padding: 2px 0px !important;
+    background-color: rgba(45, 211, 147, 1);
+    border-bottom-color: rgba(45, 211, 147, 1);
+    border-bottom-style: solid;
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(45, 211, 147, 1);
+    border-left-style: solid;
+    border-left-width: 1.00px;
+    border-right-color: rgba(45, 211, 147, 1);
+    border-right-style: solid;
+    border-right-width: 1.00px;
+    border-top-color: rgba(45, 211, 147, 1);
+    border-top-style: solid;
+    border-top-width: 1.00px;
+    border-top-left-radius: 8.00px;
+    border-top-right-radius: 8.00px;
+    border-bottom-left-radius: 8.00px;
+    border-bottom-right-radius: 8.00px;
+    box-shadow: none;
+}
