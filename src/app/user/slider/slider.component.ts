@@ -14,7 +14,7 @@ export class SliderComponent implements OnInit {
     new Glider(document.querySelector('.glider'), {
         // Mobile-first defaults
         slidesToShow: 1,
-        slidesToScroll: 1,  
+        slidesToScroll:2,  
         scrollLock: true,
         dots: '#resp-dots',
         arrows: {
@@ -24,12 +24,12 @@ export class SliderComponent implements OnInit {
         responsive: [
             {
                 // screens greater than >= 775px
-                breakpoint: 775,
+                breakpoint: 205,
                 settings: {
                     // Set to `auto` and provide item width to adjust to viewport
-                    slidesToShow: 'auto',
-                    slidesToScroll: 'auto',
-                    itemWidth: 150,
+                    slidesToShow: "auto",
+                    slidesToScroll: "auto",
+                    itemWidth: 140,
                     duration: 0.25
                 }
             }, {

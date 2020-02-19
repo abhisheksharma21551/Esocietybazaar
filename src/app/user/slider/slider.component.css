@@ -130,18 +130,18 @@ h3,p{
   .glider-next {
     background-color: rgba(45, 211, 145, 1) !important;
     border-radius: 50px;
-    width: 5%;
+    width: 13%;
     color: white !important;
-    padding: 0.5%;
-    margin-right:0% !important;
+    padding: 1%;
+    margin-right:5% !important;
   }
   .glider-prev{
     background-color: rgba(45, 211, 145, 1) !important;
     border-radius: 50px;
-    width: 5%;
+    width: 13%;
     /* height: 40px !important; */
     color: white !important;
-    padding: 0.8%;
-    margin-left:0% !important;
+    padding: 1%;
+    margin-left:5% !important;
   }
 }
